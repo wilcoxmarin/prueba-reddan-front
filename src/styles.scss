@@ -1,1 +1,53 @@
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ecf0f5;
+  height: 100vh;
+}
+
+.p-menubar {
+  background-color: transparent;
+  border: none;
+  justify-content: end;
+}
+
+.p-menubar-end {
+  margin-left: 0;
+}
+
+.p-menu-list {
+  justify-content: end;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.p-datatable .p-datatable-header {
+  background-color: #fff;
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+  background-color: #fff;
+}
+
+.p-paginator .p-paginator-current {
+  margin-right: auto;
+}
+
+.gap {
+  gap: 15px;
+}

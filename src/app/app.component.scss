@@ -1,0 +1,44 @@
+.section-table {
+  background-color: #fff;
+  flex: 0 1 90vw;
+  width: 90vw;
+  border-radius: 10px;
+  overflow: hidden;
+  &__card {
+    border-top: 3px solid #5fa0c8;
+    &__header {
+      display: flex;
+      border-bottom: 1px solid #ecf0f5;
+      & .title {
+        flex: 0 1 50%;
+        font-size: 1.125rem;
+        font-weight: 700;
+        padding-left: 2rem;
+      }
+      & .actions {
+        flex: 0 1 50%;
+        & ul {
+          padding: 0;
+          margin: 0;
+          list-style: none;
+          display: flex;
+          justify-content: end;
+        }
+      }
+    }
+    &__body {
+      padding: 0 10px;
+    }
+  }
+}
+
+:host ::ng-deep {
+  .p-progressbar {
+    height: 0.5rem;
+    background-color: #d8dadc;
+
+    .p-progressbar-value {
+      background-color: #607d8b;
+    }
+  }
+}
